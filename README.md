@@ -1,50 +1,26 @@
-# 🟦 Refrigeration Chat Interface
+# 🟦 Giao Diện Chat Cơ Bản
 
-A simple chat interface that connects with a backend API for sending and receiving messages.
+Một giao diện chat đơn giản kết nối với API backend để gửi/nhận tin nhắn.
 
-## 🧩 Features
-- Send messages to API endpoint
-- Receive and display responses from API
-- Full-screen chat interface
-- Support for sending messages via Enter key or Send button
-- Real-time message display with user/bot differentiation
-- Responsive design for all devices
+## 🧩 Tính năng
+- Gửi tin nhắn đến API
+- Nhận và hiển thị phản hồi từ API
+- Giao diện chat toàn màn hình
+- Hỗ trợ gửi bằng Enter hoặc nút Gửi
 
-## 🧰 Technologies Used
-- HTML5
-- CSS3 (with modern styling and animations)
-- Vanilla JavaScript (Fetch API)
-- Responsive Web Design
+## 🧰 Công nghệ sử dụng
+- HTML
+- CSS
+- JavaScript (Fetch API)
 
-## 🌐 API Integration
-Currently configured to work with webhook endpoint:
+## 🌐 API Endpoint
+Hiện tại đang sử dụng endpoint:
 ```
 https://traditive-maryrose-odorous.ngrok-free.app/webhook/ece80e2e-0536-46dc-83ce-bbb29514be3e/chat
 ```
 
-## 🚀 Deployment
-This project can be easily deployed to:
-- Vercel
-- Netlify
-- GitHub Pages
-- Any static hosting provider
+## 🚀 Deploy
+Dự án có thể deploy dễ dàng lên Vercel hoặc bất kỳ static hosting nào.
 
-## 📦 How to Run
-1. Clone the repository
-2. Open `index.html` in your web browser
-3. Start chatting!
-
-## 🛠️ Development
-To modify the API endpoint, update the URL in `script.js`:
-```javascript
-const apiUrl = 'YOUR_API_ENDPOINT_HERE';
-```
-
-## 📱 Browser Support
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-
-## 📄 License
-This project is open source and available under the MIT License.
+## 📦 Cách chạy
+Mở file `chat.html` trong trình duyệt là có thể sử dụng.
